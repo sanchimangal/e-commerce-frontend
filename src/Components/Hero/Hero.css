@@ -1,6 +1,6 @@
 .hero{
     height: 100vh;
-    width: 100vw;
+    
     background: linear-gradient(180deg, #99f7cc, #cbf3f0 60%);
     display: flex;
   
@@ -27,7 +27,7 @@
 }
 .hero-right img{
     border-radius: 10px;
-    height: 750px;
+    height: 550px;
     
     /* width: 210px; */
 }
