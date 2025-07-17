@@ -93,3 +93,85 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 768px) {
+  .cartitems {
+    margin: 20px;
+  }               
+
+  .cartitems-format-main {
+    display: none; /* Hide heading row on mobile */
+  }
+
+  .cartitems-format {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .cartitems-format img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .cartitems-quantity {
+    width: 60px;
+    height: 30px;
+  }
+
+  .cartitems-down {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .cartitems-total {
+    margin-right: 0;
+    gap: 20px;
+  }
+
+  .cartitems-total button {
+    width: 100%;
+  }
+
+  .cartitems-promobox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .cartitems-promobox input,
+  .cartitems-promobox button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .cartitems hr {
+    margin: 10px 0;
+  }
+  .cartitems-remove-icon {
+  width: 18px;
+  height: 18px;
+}
+
+}
+.cartitems-remove-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.cartitems-format p {
+  margin: 0;
+}
+
+/* .cartitems-format button, */
+/* .cartitems-remove-icon {
+  align-self: flex-start;
+} */
